@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.13.0b4
 
 RUN useradd -ms /bin/bash user
 USER user
